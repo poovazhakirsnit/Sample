@@ -7,6 +7,7 @@ public class Forloop {
         input = ("Do you want to play-Enter 1 if yes , 0 if no");
         result = Integer.parseInt(input);
         } while (result != 1 || result != 0);
+        System.out.println("Hi");
         return result;
     }
 
